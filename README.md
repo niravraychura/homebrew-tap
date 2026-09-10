@@ -1,6 +1,6 @@
 # homebrew-tap
 
-Homebrew tap for [TerraDrift](https://github.com/niravraychura/terradrift).
+Homebrew tap for [TerraDrift](https://github.com/niravraychura/terradrift). Independent CLI — not affiliated with HashiCorp, OpenTofu, or GitHub.
 
 ```bash
 brew install niravraychura/tap/terradrift
