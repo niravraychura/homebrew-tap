@@ -4,28 +4,28 @@
 class Terradrift < Formula
   desc "Plan-based Terraform and OpenTofu drift detection CLI"
   homepage "https://github.com/niravraychura/terradrift"
-  version "1.1.0"
+  version "1.1.1"
   license "MIT"
 
   on_macos do
     on_arm do
       url "https://github.com/niravraychura/terradrift/releases/download/v#{version}/terradrift_darwin_arm64.tar.gz"
-      sha256 "8b890032e6c95928ceb3b630b575dcbab76d7e15bf11ca9de38287ddf7d0e379"
+      sha256 "136d6d108d69700c460dd737e5454ddc9cc3eae6444cde0967d83e8b659f91af"
     end
     on_intel do
       url "https://github.com/niravraychura/terradrift/releases/download/v#{version}/terradrift_darwin_amd64.tar.gz"
-      sha256 "7fbb50e81fc8260f4b2a6d20479a6a6fcce1d82bada649da603810c1ea241ac3"
+      sha256 "544b8b1052c1da80de53f496e8a5d2ffc5c691a8e0fb84db9329c5157230c341"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/niravraychura/terradrift/releases/download/v#{version}/terradrift_linux_arm64.tar.gz"
-      sha256 "db50559c89492bb9f6153d930d88b366adc8b31ab3b0285b9fe9a73e00f2f135"
+      sha256 "3c53ffee2d877cddef74486299024b9acc9a9d0612b1031ad851f4c355f739e7"
     end
     on_intel do
       url "https://github.com/niravraychura/terradrift/releases/download/v#{version}/terradrift_linux_amd64.tar.gz"
-      sha256 "afaf0f880c05f8b2dbe226f72e8de7dcd2147685bb6aff7dbf191438e0c71f00"
+      sha256 "f66321fbce203b3a726b8022ee2955afee630a6592b83fbaf827ecb18458b3b6"
     end
   end
 
